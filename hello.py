@@ -44,4 +44,3 @@ final_price = price - discount_amount
 print(f"\nOriginal price: ${price:.2f}")
 print(f"Discount ({discount_pct}%): -${discount_amount:.2f}")
 print(f"Final price: ${final_price:.2f}")
-
