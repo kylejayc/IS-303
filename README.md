@@ -1,1 +1,1 @@
-IS303-Giboney IN CLASS
+IS303-Giboney SPR 2026
