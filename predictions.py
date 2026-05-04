@@ -13,7 +13,7 @@ print(name * 3)
 
 
 val = input("Num: ")
-print(value(val))
+print(int(val))
 
 
 a = "5"
@@ -23,7 +23,7 @@ print(a + b)
 
 price = 19.99
 qty = 3
-total = price * quantity
+total = price * qty
 print (f"${total: .2f}")
 
 
