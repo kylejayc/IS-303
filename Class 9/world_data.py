@@ -5,6 +5,9 @@ print(df.describe())
 print(df.shape)
 print(df.info())
 
+df["gdp_per_capita"] = pd.to_numeric(df["gdp_per_capita"], errors="coerce")
+print()
+
 water_crisis = df[df["clean_water_pct"] < 80]
 print(water_crisis[["country", "clean_water_pct"]])
 
